@@ -19,7 +19,6 @@ class BootstrapUIHelper extends Helper
 {
 
 	protected array $helpers = [
-		'UIFlash' => ['className' => 'BootstrapUI.Flash'],
 		'UIForm' => ['className' => 'BootstrapUI.Form'],
 		'UIHtml' => ['className' => 'BootstrapUI.Html'],
 		'UIPaginator' => ['className' => 'BootstrapUI.Paginator'],
@@ -50,33 +49,6 @@ class BootstrapUIHelper extends Helper
 	public function end()
 	{
 		return $this->UIForm->end();
-	}
-
-	#Flash Messages / Alerts
-
-	public function success($message, array $options = [])
-	{
-		return $this->UIFlash->success($message, $options);
-	}
-
-	public function info($message, array $options = [])
-	{
-		return $this->UIFlash->info($message, $options);
-	}
-
-	public function warning($message, array $options = [])
-	{
-		return $this->UIFlash->warning($message, $options);
-	}
-
-	public function error($message, array $options = [])
-	{
-		return $this->UIFlash->error($message, $options);
-	}
-
-	public function setFlash($message, array $options = [])
-	{
-		return $this->UIFlash->set($message, $options);
 	}
 
 	# Badges
