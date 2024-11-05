@@ -11,7 +11,9 @@
  */
 
 return [
-    'type' => 'Theme',
+    'type' => ['Theme', 'Plugin'],
+    // 'type' => 'Plugin',
+    // 'type' => 'Theme',
     'title' => __d('baser_core', 'BootstrapUI'),
     'description' => __d('baser_core', 'BootstrapUI is a collection of enhancements for CakePHP core helpers. in baserCMS.'),
     'author' => 'dubmilli LLC.',
