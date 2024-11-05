@@ -36,5 +36,8 @@ class DubBootstrapUIViewEventListener extends BcViewEventListener
         $view->helpers()->unload('BcAdminForm');
         $view->loadHelper('BaserCore.BcAdminForm', ['templates' => 'DubBootstrapUi.bc_form']);
         \Cake\Log\Log::warning('beforeRender イベントが発火しました。');
+
+        // $view->helpers()->unload('Mailform');
+        // $view->loadHelper('BcMail.Mailform', ['templates' => 'DubBootstrapUi.bc_form']);
     }
 }
