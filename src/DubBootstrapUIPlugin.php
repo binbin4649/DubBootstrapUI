@@ -26,8 +26,8 @@ class DubBootstrapUIPlugin extends BcPlugin
 
     public function install($options = []): bool
     {
+        return parent::install($options);
         exec('composer require friendsofcake/bootstrap-ui');
         exec('bin/cake plugin load BootstrapUI');
-        return parent::install($options);
     }
 }
