@@ -67,5 +67,5 @@ if (isset($params['?']['qa_category']) && !empty($params['?']['qa_category'])) {
 <section class="mb-5 mx-3">
   <h4 class="fs-6 text-secondary border-bottom mb-3 mb-md-4">お問い合わせ</h4>
   <p class="small">ご質問、ご意見等、お問い合わせはこちらから、お気軽にどうぞ。</p>
-  <a href="#" type="button" class="btn btn-outline-primary">お問い合わせ</a>
+  <a href="/contact/" type="button" class="btn btn-outline-primary">お問い合わせ</a>
 </section>

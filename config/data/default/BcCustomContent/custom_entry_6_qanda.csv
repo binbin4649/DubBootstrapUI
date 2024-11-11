@@ -1,0 +1,13 @@
+﻿"id","custom_table_id","name","title","parent_id","lft","rght","level","status","publish_begin","publish_end","published","creator_id","modified","created","qa_category","textarea_large"
+"1","6",,"一部ユーザーを違う管理者へ変更したい",,,,,"1",,,"2024-11-10 18:58:35","1","2024-11-10 18:59:39","2024-11-10 18:59:39","1","一部ユーザーを違う管理者（変更先アカウント）へ、変更する場合は、
+元のアカウントからユーザーを削除し、変更先アカウントで改めて登録してください。
+
+ユーザーの削除方法については、次のURLをご参照ください。
+https://nomiss.jp/feature/useredit/
+
+
+ユーザーの変更が頻繁にあり、操作が煩雑である、
+このような場合はカスタマイズプランもご検討ください。
+御社の業務に合わせて、御社専用のノーミスを構築いたします。
+費用感などは次のURLでご確認いただけます。
+https://nomiss.jp/customize_simulator"
