@@ -56,14 +56,8 @@ $base = $attributes['base'];
   <div class="container mt-5">
     <div class="row">
       <main class="col-lg-9 mb-5">
-
         <?php $this->BcBaser->flash() ?>
-        <?php if ($this->BcBaser->isHome()): ?>
-          <?php $this->BcBaser->element('top_page') ?>
-        <?php else: ?>
-          <?php $this->BcBaser->content() ?>
-        <?php endif; ?>
-
+        <?php $this->BcBaser->content() ?>
       </main>
       <?php $this->BcBaser->element('sidebar') ?>
     </div>
