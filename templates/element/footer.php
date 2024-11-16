@@ -24,7 +24,7 @@
           <ul class="list-unstyled">
             <li class="mb-1"><a href="/price" class="link-secondary">料金・プラン</a></li>
             <li class="mb-1"><a href="/contact/" class="link-secondary">お問い合わせ</a></li>
-            <li class="mb-1"><a href="about.html" class="link-secondary">link サンプル</a></li>
+            <li class="mb-1"><a href="/dub-manual/dub-man/" class="link-secondary">使い方・操作方法</a></li>
             <li class="mb-1"><a href="/qanda/" class="link-secondary">Q&A - よくある質問</a></li>
             <li class="mb-1"><a href="about.html" class="link-secondary">link サンプル</a></li>
           </ul>
